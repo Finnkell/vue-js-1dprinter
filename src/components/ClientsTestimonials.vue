@@ -1,6 +1,9 @@
 <template>
   <section class="font-sans container m-auto text-center py-8">
-    <label for="tagline" class="uppercase tracking-wide font-bold text-gray-700">
+    <label
+      for="tagline"
+      class="uppercase tracking-wide font-bold text-gray-700"
+    >
       Clients Testimonials
     </label>
     <h1 class="mt-2 mb-4 font-medium max-w-sm m-auto">
@@ -11,7 +14,11 @@
     <LoadingAnimation />
 
     <div class="flex flex-wrap justify-between items-start">
-      <SingleTestimonial name="Fake Person" picture="jhon.jpg" description="lorem ipsum dolor" />
+      <SingleTestimonial
+        name="Fake Person"
+        picture="jhon.jpg"
+        description="lorem ipsum dolor"
+      />
     </div>
   </section>
 </template>

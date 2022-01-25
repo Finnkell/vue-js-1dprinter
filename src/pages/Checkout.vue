@@ -17,13 +17,42 @@
       }"
     />
 
-    <form class="font-sans text-sm rounded w-full max-w-md mx-auto my-8 px-8 pt-6 pb-8" novalidate>
-      <FormInput error="" field-id="email" placeholder="Email" label="Email" type="email" />
+    <form
+      class="
+        font-sans
+        text-sm
+        rounded
+        w-full
+        max-w-md
+        mx-auto
+        my-8
+        px-8
+        pt-6
+        pb-8
+      "
+      novalidate
+    >
+      <FormInput
+        error=""
+        field-id="email"
+        placeholder="Email"
+        label="Email"
+        type="email"
+      />
 
-      <FormInput error="" field-id="phone" placeholder="Phone" label="Phone" type="tel" />
+      <FormInput
+        error=""
+        field-id="phone"
+        placeholder="Phone"
+        label="Phone"
+        type="tel"
+      />
 
       <div class="flex items-center justify-between">
-        <button class="w-full bg-black hover:bg-black text-white py-2 px-4" type="submit">
+        <button
+          class="w-full bg-black hover:bg-black text-white py-2 px-4"
+          type="submit"
+        >
           Buy
         </button>
       </div>

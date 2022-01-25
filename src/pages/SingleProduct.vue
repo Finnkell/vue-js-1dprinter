@@ -1,8 +1,6 @@
 <template>
   <div class="container min-h-screen">
-    <a href="/products">
-      ← Back to Products
-    </a>
+    <a href="/products"> ← Back to Products </a>
 
     <LoadingAnimation />
 
@@ -15,9 +13,7 @@
       :showDetailsButton="false"
     />
 
-    <div>
-      Product not found :(
-    </div>
+    <div>Product not found :(</div>
   </div>
 </template>
 
